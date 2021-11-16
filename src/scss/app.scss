@@ -19,6 +19,7 @@ html {
   background: $background;
 }
 
+
 .main {
   height: 100vh;
   align-items: center;
@@ -30,9 +31,11 @@ html {
   }
   .card {
     margin-right: 30px;
+    font-size:  map-get($widget-sizes,"large");
     .hot {
       color: orangered;
       font-weight: bold;
+     font-size:  map-get($widget-sizes,"small");
     }
   }
 }
